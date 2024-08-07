@@ -1,0 +1,133 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Shipments Page Styling */
+.shipments-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: -20px;
+}
+
+.shipments-navbar {
+    width: 100%;
+}
+
+/* Heading Styling */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Booking Form Styling */
+.booking-form {
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+/* Label Styling */
+.booking-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input Fields Styling */
+.booking-form input[type="text"],
+.booking-form select,
+.booking-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* Textarea Specific Styling */
+.booking-form textarea {
+    height: 100px;
+}
+
+/* Payment Details Section */
+.payment-details {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.payment-details label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Submit Button Styling */
+.booking-form button[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Button Hover Effect */
+.booking-form button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Service Details Styling */
+.service-details {
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.service-details img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.service-details p {
+    margin: 10px 0;
+}
+
+/* Terms and Conditions */
+.booking-form label input[type="checkbox"] {
+    margin-right: 10px;
+    color: #333;
+}
+
+.booking-form a {
+    color: #333;
+    text-decoration: underline;
+}
+
+.booking-form a:hover {
+    text-decoration: none;
+}
